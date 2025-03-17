@@ -1,4 +1,4 @@
-# Analiza-i-Prognozowanie-Szereg-w-Czasowych-w-R
+# Analiza-i-prognozowanie-szeregow-w-zzasowych-w-R
 
 ## Opis projektu
 Projekt implementuje analizę i prognozowanie szeregów czasowych przy użyciu języka R. Obejmuje generację danych czasowych, testy stacjonarności, dekompozycję szeregu, oraz prognozy przy użyciu modeli Holta-Wintersa i ARIMA.
