@@ -1,7 +1,7 @@
 # Analiza-i-Prognozowanie-Szereg-w-Czasowych-w-R
 
 ## Opis projektu
-Ten projekt implementuje analizę i prognozowanie szeregów czasowych przy użyciu języka R. Obejmuje generację danych czasowych, testy stacjonarności, dekompozycję szeregu, oraz prognozy przy użyciu modeli Holta-Wintersa i ARIMA.
+Projekt implementuje analizę i prognozowanie szeregów czasowych przy użyciu języka R. Obejmuje generację danych czasowych, testy stacjonarności, dekompozycję szeregu, oraz prognozy przy użyciu modeli Holta-Wintersa i ARIMA.
 
 ## Wymagania
 Projekt wymaga następujących pakietów R:
@@ -24,30 +24,14 @@ install.packages(c("tseries", "ggplot2", "urca", "forecast"))
 - Analiza cross-korelacji - Badanie zależności między zmiennymi.
 - Eksport wyników - Zapisywanie prognoz do plików CSV.
 
-## Uruchomienie skryptu
+## Pliki wyjściowe
+- time_series_data.csv - Wygenerowane dane czasowe.
+- forecast_results.csv - Wyniki prognozy ARIMA.
 
-Aby uruchomić skrypt, wykonaj następującą komendę w R:
-
-source("sad.R")
-
-Pliki wyjściowe
-
-time_series_data.csv - Wygenerowane dane czasowe.
-
-forecast_results.csv - Wyniki prognozy ARIMA.
-
-Wizualizacje
-
+## Wizualizacje
 Skrypt generuje następujące wykresy:
-
-Szereg czasowy danych historycznych.
-
-Dekompozycja szeregu czasowego.
-
-Prognoza Holta-Wintersa.
-
-Prognoza ARIMA.
-
-Analiza cross-korelacji.
-
-Autor
+- Szereg czasowy danych historycznych.
+- Dekompozycja szeregu czasowego.
+- Prognoza Holta-Wintersa.
+- Prognoza ARIMA.
+- Analiza cross-korelacji.
